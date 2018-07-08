@@ -93,7 +93,7 @@ msg.guild.member(msg.author).kick();
 
 client.on('guildMemberAdd', member => {  
 
-const salon = member.guild.channels.find('name', 'verification');
+const salon = member.guild.channels.find('name', 'certification');
 
     if(!salon) return;
 
